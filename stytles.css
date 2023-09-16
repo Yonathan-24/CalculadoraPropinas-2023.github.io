@@ -1,0 +1,102 @@
+/* Estilos generales */
+body {
+    font-family: cursive, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to bottom, #D90000, #fff, #0033A0);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    background-color: #d62929;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+#calculadora {
+    background-color: white;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #ffffff;
+}
+
+/* Estilos para los campos de entrada y etiquetas */
+.input-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Estilos para el botón Calcular */
+#calcular {
+    background-color: #0033A0;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+#calcular:hover {
+    background-color: #001F6D;
+}
+
+/* Estilos para los resultados */
+#resultado {
+    margin-top: 20px;
+    background-color: #f2f2f2;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+span {
+    font-weight: bold;
+}
+
+/* Estilos para los botones de Imprimir y Enviar por correo electrónico */
+#imprimir, #enviarCorreo {
+    display: block;
+    background-color: #0033A0;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 16px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+#imprimir:hover, #enviarCorreo:hover {
+    background-color: #001F6D;
+}
